@@ -13,7 +13,7 @@ app.use('/api/products', productRoute);
 
 
 //connect to mongodb
-mongoose.connect('mongodb+srv://insecounces1998:VRIfhNLulfXem1k8@backenddb.ycmohdw.mongodb.net/?retryWrites=true&w=majority&appName=BackendDB')
+mongoose.connect('mongodb+srv://<db-username>:<db-password>@backenddb.ycmohdw.mongodb.net/?retryWrites=true&w=majority&appName=BackendDB')
   .then(() => {
     console.log('Connected!');
     app.listen(5000, () => {

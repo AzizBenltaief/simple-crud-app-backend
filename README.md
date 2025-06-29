@@ -20,6 +20,7 @@ This project is a basic RESTful API built using **Node.js**, **Express.js**, and
 ---
 
 ## 📁 Project Structure
+
 SimpleCrudApp/
 ├── Models/
 │ └── product.model.js
